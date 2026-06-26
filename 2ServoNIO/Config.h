@@ -51,10 +51,10 @@
 #define NUM_EVENT (NUM_SERVOS * NUM_POS) + (NUM_IO*2)
 
 // Board definitions
-#define MANU "OpenLCB"              // The manufacturer of node
-#define MODEL BOARD " 2Servo8IO"    // The default model of the board - Software type Leave a space after the quote
-#define HWVERSION "ESP 1 Basic"     // Hardware version
-#define SWVERSION "1.0.1"           // Software version
+#define MANU " OpenLCB "              // The manufacturer of node
+#define MODEL BOARD " 2Servo8IO "    // The default model of the board - Software type Leave a space after the quote
+#define HWVERSION " ESP 1 Basic "     // Hardware version
+#define SWVERSION " 1.0.1 "           // Software version
 
 #ifdef USEGCSERIAL
   #include "GCSerial.h"

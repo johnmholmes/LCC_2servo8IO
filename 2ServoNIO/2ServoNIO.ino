@@ -154,7 +154,7 @@ extern "C" {
         IOEID(NUM_IO)
     };
     extern const char SNII_const_data[] PROGMEM = 
-    "\001" MANU "\000" MODEL " " "\000" HWVERSION "\000" SWVERSION " " OlcbCommonVersion;
+    "\001" MANU "\000" MODEL "\000" HWVERSION "\000" SWVERSION " " OlcbCommonVersion;
 }  
 
 uint8_t protocolIdentValue[6] = {   
