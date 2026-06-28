@@ -5,7 +5,7 @@ This sketch implements:
 * two servos, each with three positions
    Positions cabe set to angles 0-180
    The 0 and 180 end-points of the servos can be configured.
-* N i/o channels, each of which can be an input or an output,
+* 8 i/o channels, each of which can be an input or an output,
    If an output it may be solid, pulse or flashing, and consumes an on- and 0ff-event. 
    If an input it produces an on- and off-event, which may each be delayed.  The 
      inputs can be with or with pullups, inverted or not, or can be toggle. 
@@ -20,7 +20,7 @@ It demonstrates:
 
 This sketch is configured to use the ACAN_ESP32Can.h library that has been changed by David Harris.
 
-This sketch is tested on the ESP32 DEVKIT V1 and the sn65hvd230 transceiver module.  
+This sketch is tested on the ESP32 DEVKIT V1 and the SN65HVD230 transceiver module.  
 
 
 
