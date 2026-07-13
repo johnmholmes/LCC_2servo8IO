@@ -30,7 +30,7 @@ The author reserves the right to modify or remove this sketch at any time withou
 
 */
 //==============================================================
-// AVR 2Servos NIO using ESPcan
+// AVR 2Servos 8IO using ESPcan
 //
 // Coprright 2024 David P Harris
 // derived from work by Alex Shepherd and David Harris
