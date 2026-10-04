@@ -60,7 +60,7 @@
 #define MANU " OpenLCB "              // The manufacturer of node
 #define MODEL BOARD " 2Servo8IO "    // The default model of the board - Software type Leave a space after the quote
 #define HWVERSION " ESP 1 Basic "     // Hardware version
-#define SWVERSION " 1.0.2 "           // Software version
+#define SWVERSION " 1.0.3 "           // Software version
 
 #ifdef USEGCSERIAL
   #include "GCSerial.h"
